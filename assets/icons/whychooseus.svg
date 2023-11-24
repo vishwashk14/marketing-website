@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="151.746" height="74" viewBox="0 0 151.746 74">
+  <g id="Group_390" data-name="Group 390" transform="translate(-1039.409 -1265)">
+    <g id="Group_16" data-name="Group 16" transform="translate(1042 1269.012)">
+      <g id="Rectangle_11" data-name="Rectangle 11" transform="translate(0.562 7.898) rotate(-3)" fill="#e8f1f8" stroke="#3480c2" stroke-width="3">
+        <rect width="142.665" height="56.775" rx="1" stroke="none"/>
+        <rect x="-1.5" y="-1.5" width="145.665" height="59.775" rx="2.5" fill="none"/>
+      </g>
+      <rect id="Rectangle_13" data-name="Rectangle 13" width="16.481" height="58.157" transform="translate(127.128 0.863) rotate(-3)" fill="#3480c2"/>
+      <rect id="Rectangle_14" data-name="Rectangle 14" width="1.731" height="16.134" rx="0.865" transform="translate(135.706 21.134) rotate(-3)" fill="#fff"/>
+      <rect id="Rectangle_12" data-name="Rectangle 12" width="15.026" height="57.783" transform="translate(0 7.284) rotate(-3)" fill="#3480c2"/>
+      <rect id="Rectangle_15" data-name="Rectangle 15" width="1.731" height="25.688" rx="0.865" transform="translate(7.054 22.739) rotate(-3)" fill="#fff"/>
+    </g>
+    <text id="Us_" data-name="Us?" transform="translate(1069 1326)" fill="#3480c2" font-size="60" font-family="Impact"><tspan x="0" y="0">Us?</tspan></text>
+  </g>
+</svg>
