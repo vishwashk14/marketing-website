@@ -349,9 +349,73 @@
   /* slide dev */
   #displayedImg {
     transition: transform 0.3s ease-out; /* Adjust the duration and easing as needed */
-}
+  }
 
-.slide-out {
-    transform: translateX(100%);
-}
+  .slide-out {
+    transform: translateX(-100%);
+  }
+  .slide-in {
+    transform: translate(0%);
+  }
+
+  /* ----- --------- */
+
+  .proven_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    gap: 5.313vw;
+    align-items: end;
+    margin: 7.969vw 0 0 0;
+  }
+
+  .proven_image {
+    width: 40.385vw !important;
+    height: 43.458vw !important ;
+  }
+
+  .proven_btn_wrapper {
+    margin: 1rem 0 0 0;
+    width: 40.5vw;
+  }
+
+  .proven_btn_wrapper button img {
+    width: 2.917vw;
+    height: 0.938vw;
+  }
+
+  .proven_btn_wrapper p {
+    font: normal normal bold 1.354vw/1.927vw "Nexa Reguar";
+    letter-spacing: 0px;
+    color: #3480c2;
+    opacity: 1;
+    margin-bottom: 0;
+  }
+
+  .proven_content_wrapper h3 {
+    font: normal normal normal 5.417vw/8.698vw Impact;
+    letter-spacing: 0px;
+    color: #3480c2;
+    text-transform: uppercase;
+    opacity: 1;
+    white-space: nowrap;
+    position: absolute;
+    top: 8.5vw;
+    left: 54.4vw;
+    transform: translate(-50%, -50%);
+  }
+
+  .btn_proven {
+    margin-top: 4.896vw;
+    padding: 0.6rem 1.2rem;
+    border: 2px solid #3480c2;
+    background: transparent;
+    color: #3480c2;
+    font: normal normal normal 1.354vw/1.51vw "Nexa Regular";
+    letter-spacing: 0px;
+  }
+  .btn_proven img{
+    width: 2.917vw;
+    height: 0.938vw;
+  }
 }
