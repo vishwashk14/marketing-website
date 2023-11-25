@@ -122,11 +122,11 @@
         <div class="blue_card_wrapper position-relative overflow-visible ">
             <!-- left and right arrow -->
             <div class="d-flex justify-content-between align-items-center px-3 pt-3 arrow_wrapper">
-                <button class="border-0 bg-transparent" onclick="prevSlide()">
+                <button class="border-0 bg-transparent" id="left_btn">
                     <img src="/assets/icons/left_arrow.svg" alt="left arrow">
                 </button>
 
-                <button class="border-0 bg-transparent " onclick="nextSlide()">
+                <button class="border-0 bg-transparent " id="right_btn">
                     <img src="/assets/icons/right_arrow.svg" alt="right arrow">
                 </button>
             </div>
@@ -134,10 +134,10 @@
             <!-- Slider Image and Text  -->
             <div class="d-flex TextnSliderimg">
                 <!-- carousel container -->
-                <div class="carousel-container">
-                    <div class="carousel">
+                <div>
+                    <div id="imageContainer" class="image-container">
                         <!-- First Card -->
-                        <div>
+                        <div id="displayedImg">
                             <div class="d-flex flex-column position-relative " style="top:13vw;">
                                 <h4 class="slider_text mb-0">Radio FM</h4>
                                 <div class="d-flex flex-row align-items-center download_iconsNnmber ml-1">
@@ -145,7 +145,9 @@
                                     <p class="d-flex align-items-center mb-0 ml-1">50M <span>+</span></p>
                                 </div>
                             </div>
-                            <img src="/assets/img/mobie_slider.png" alt="random images" class="slider_imgs">
+                            <div class="image-container">
+                                <img src="/assets/img/mobie_slider.png" alt="random images" class="slider_imgs" >
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -153,7 +155,7 @@
 
 
             <div class=" d-flex justify-content-between px-3 start-0 position-absolute w-100 " style="bottom:1.823vw;">
-                <div class="slide-indicator d-flex align-items-end " id="indicator">
+                <div class="slide-indicator d-flex align-items-end " id="slideInfo">
                     <p class="changing_slide_number mb-0 mr-2" id="currentSlide">01</p>
                     <span class="total_slide_number mb-1">/</span>
                     <p class="total_slide_number mb-1" id="totalSlides">02</p>
@@ -189,7 +191,7 @@
         crossorigin="anonymous"></script>
 
 
-    <script src="./scripts.js"></script>
+    <script src="./carouselScripts.js"></script>
 </body>
 </body>
 

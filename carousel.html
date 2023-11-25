@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carousel</title>
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+     <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+     <!-- red and blue cards -->
+     <section class="container mx-auto redNblue_wrapper">
+
+        <!-- red card  -->
+        <div class="red_card_wrapper">
+            <!-- title -->
+            <div class="d-flex">
+                <h3>Sucess</h3>
+                <img src="/assets/icons/stories.svg" alt="stories" class="ml-1" />
+            </div>
+
+            <!-- para -->
+            <p class="mb-0">Our clients partnered with us to achieve their business goals and together we achieved
+                a remarkable feat. 100 million+ organic app downloads in 100+ countries over 40 languages. Our expertise
+                in app store optimization services and growth strategies, combined with our client's unwavering
+                commitment, made it possible. Through developing a comprehensive app marketing strategy and optimizing
+                the app store presence, we left no stone unturned in our pursuit of success. But success is not just
+                about numbers ; it's about the impact you make. Our client's app has changed the way people interact
+                with technology, enabling businesses to reach new heights and individuals to connect with loved ones
+                across the globe. At the heart of this success story are the people - our clients who dared to dream big
+                and trusted us to help them achieve their goals. We are honored to have played a small part in this
+                remarkable journey.</p>
+
+            <button class="px-4 py-3">
+                ASO Audit
+                <img src="/assets/icons/arrow2.svg" alt="arrow">
+            </button>
+        </div>
+
+        <div class="blue_card_wrapper position-relative overflow-visible ">
+            <!-- left and right arrow -->
+            <div class="d-flex justify-content-between align-items-center px-3 pt-3 arrow_wrapper">
+                <button class="border-0 bg-transparent" id="left_btn">
+                    <img src="/assets/icons/left_arrow.svg" alt="left arrow">
+                </button>
+
+                <button class="border-0 bg-transparent " id="right_btn">
+                    <img src="/assets/icons/right_arrow.svg" alt="right arrow">
+                </button>
+            </div>
+
+            <!-- Slider Image and Text  -->
+            <div class="d-flex TextnSliderimg">
+                <!-- carousel container -->
+                <div>
+                    <div id="imageContainer" class="image-container">
+                        <!-- First Card -->
+                        <div id="displayedImg">
+                            <div class="d-flex flex-column position-relative " style="top:13vw;">
+                                <h4 class="slider_text mb-0">Radio FM</h4>
+                                <div class="d-flex flex-row align-items-center download_iconsNnmber ml-1">
+                                    <img src="/assets/icons/download.svg" alt="download" class="">
+                                    <p class="d-flex align-items-center mb-0 ml-1">50M <span>+</span></p>
+                                </div>
+                            </div>
+                            <div class="image-container">
+                                <img src="/assets/img/mobie_slider.png" alt="random images" class="slider_imgs" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class=" d-flex justify-content-between px-3 start-0 position-absolute w-100 " style="bottom:1.823vw;">
+                <div class="slide-indicator d-flex align-items-end " id="slideInfo">
+                    <p class="changing_slide_number mb-0 mr-2" id="currentSlide">01</p>
+                    <span class="total_slide_number mb-1">/</span>
+                    <p class="total_slide_number mb-1" id="totalSlides">02</p>
+                </div>
+
+                <button class="btn_download px-4 py-1">
+                    <img src="/assets/icons/download.svg" alt="download">
+                    download
+                </button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <script src="./carouselScripts.js"></script>
+</body>
+</html>
