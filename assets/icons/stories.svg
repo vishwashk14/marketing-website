@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="261.266" height="118.786" viewBox="0 0 261.266 118.786">
+  <g id="Group_392" data-name="Group 392" transform="translate(-361.648 -4152.715)">
+    <g id="Group_16" data-name="Group 16" transform="translate(363.817 4155.111)">
+      <g id="Rectangle_11" data-name="Rectangle 11" transform="translate(0.984 13.846) rotate(-3)" fill="#e8f1f8" stroke="#3480c2" stroke-width="3">
+        <rect width="250.095" height="99.527" rx="1" stroke="none"/>
+        <rect x="-1.5" y="-1.5" width="253.095" height="102.527" rx="2.5" fill="none"/>
+      </g>
+      <rect id="Rectangle_13" data-name="Rectangle 13" width="28.892" height="101.951" transform="translate(222.858 1.512) rotate(-3)" fill="#3480c2"/>
+      <rect id="Rectangle_14" data-name="Rectangle 14" width="3.034" height="28.283" rx="1.517" transform="translate(237.896 37.048) rotate(-3)" fill="#fff"/>
+      <rect id="Rectangle_12" data-name="Rectangle 12" width="26.34" height="101.295" transform="translate(0 12.769) rotate(-3)" fill="#3480c2"/>
+      <rect id="Rectangle_15" data-name="Rectangle 15" width="3.034" height="45.031" rx="1.517" transform="translate(12.367 39.862) rotate(-3)" fill="#fff"/>
+    </g>
+    <text id="Stories" transform="translate(403 4233.5)" fill="#3480c2" font-size="60" font-family="Impact"><tspan x="0" y="0">Stories</tspan></text>
+  </g>
+</svg>
