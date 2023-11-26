@@ -43,6 +43,206 @@
   font-size: normal;
 }
 
+/* PROVEN EXCELLENCE Mobile */
+.proven_wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: space-between;
+  gap: 5.313vw;
+  align-items: end;
+  margin: 7.969vw 0 0 0;
+}
+.proven_image {
+  width: 100%;
+  height: auto;
+}
+
+.proven_btn_wrapper {
+  margin: 1rem 0 0 0;
+  width: 100%;
+}
+
+.proven_btn_wrapper button img {
+  width: 2.917rem;
+  height: 0.938rem;
+}
+
+.proven_content_wrapper h3 {
+  font: normal normal normal 28px/8.698vw Impact;
+  letter-spacing: 0px;
+  color: #3480c2;
+  text-transform: uppercase;
+  opacity: 1;
+  white-space: nowrap;
+}
+
+.btn_proven {
+  margin-top: 4.896vw;
+  padding: 0.6rem 1.2rem;
+  border: 2px solid #3480c2;
+  background: transparent;
+  color: #3480c2;
+  font: normal normal normal 16px/1 "Nexa Regular";
+  letter-spacing: 0px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+}
+.btn_proven img {
+  margin-left: 1rem;
+  width: 1.917rem;
+  height: 0.838rem;
+}
+
+/* Sucess Stories */
+.redNblue_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.188vw;
+  margin-top: 9.792vw;
+  margin-bottom: 9.063vw;
+  flex-direction: column;
+}
+
+.red_card_wrapper {
+  padding: 3.453vw 2.5vw;
+  background: #e44024;
+  width: fit-content;
+  height: fit-content;
+}
+
+.red_card_wrapper div h3 {
+  text-align: left;
+  font: normal normal normal 32px/1 Impact;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  margin: 0.5vw 0 0 0;
+}
+.red_card_wrapper div img {
+  width: 40%;
+  height: auto;
+}
+
+.red_card_wrapper > p {
+  text-align: left;
+  font: normal normal 300 14px/1.5 "Nexa Regular";
+  letter-spacing: 0px;
+  color: #f2f2f2;
+  opacity: 1;
+  margin-top: 1.8vw;
+}
+
+.red_card_wrapper > button {
+  border: 2px solid #ffffff;
+  opacity: 1;
+  background: transparent;
+  text-align: center;
+  font: normal normal normal 16px/1 "Nexa Regular";
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  margin-top: 4.271vw;
+  width: 100%;
+}
+
+.red_card_wrapper button img {
+  width: 11%;
+  height: auto;
+}
+/* red card style end here */
+
+/* blue card */
+.blue_card_wrapper {
+  background: linear-gradient(180deg, #975aff 0%, #155bc8 100%);
+  margin-top: 4.5rem;
+  width: 100%;
+  height: 26rem;
+}
+
+.arrow_wrapper {
+  position: relative;
+  z-index: 50;
+}
+
+.arrow_wrapper img {
+  width: 2.917rem;
+  height: 0.938rem;
+}
+
+.changing_slide_number {
+  text-align: left;
+  font: normal normal normal 36px/1.2 Impact;
+  letter-spacing: 0px;
+  color: #e44024;
+  opacity: 1;
+}
+
+.total_slide_number {
+  text-align: left;
+  font: normal normal normal 22px/1.2 Impact;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.btn_download {
+  border: 2px solid #ffffff;
+  background: transparent;
+  /* text */
+  text-align: center;
+  font: normal normal normal 16px/1 "Nexa Regular";
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.TextnSliderimg {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-40%,-50%);
+}
+
+.slide_content_wrapper{
+  position: absolute;
+  top: 40%;
+  left: -24%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.slider_text {
+  position: relative;
+  text-align: left;
+  font: normal normal normal 24px/1 Impact;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  white-space: nowrap;
+}
+
+.download_iconsNnmber p {
+  text-align: left;
+  font: normal normal normal 14px/1.2 "Nexa Regular";
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.download_iconsNnmber img {
+  width: 0.729rem;
+  height: 0.833rem;
+}
+
+.slider_imgs {
+  width: 100%;
+  height: auto;
+}
+
 @media (min-width: 1024px) {
   /* nabar styling is here */
   .nav_bar {
@@ -109,6 +309,8 @@
     opacity: 1;
     text-align: center;
     margin: 0;
+    z-index: 10;
+    position: relative;
   }
 
   .heroStyles_text .subP {
@@ -125,7 +327,7 @@
     width: 29.583vw;
     height: 16.875vw;
     position: absolute;
-    right: 5%;
+    right: -1.5%;
     top: -12px;
     z-index: 1;
   }
@@ -206,10 +408,9 @@
   /* ----- Red & Blue Card ------- */
   .redNblue_wrapper {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
     gap: 2.188vw;
-    justify-content: space-between;
     margin-top: 9.792vw;
     margin-bottom: 9.063vw;
   }
@@ -221,11 +422,7 @@
     height: fit-content;
   }
   .red_card_wrapper div h3 {
-    text-align: left;
     font: normal normal normal 3.125vw/3.854vw Impact;
-    letter-spacing: 0px;
-    color: #ffffff;
-    opacity: 1;
     margin: 0.5vw 0 0 0;
   }
   .red_card_wrapper div img {
@@ -236,21 +433,12 @@
   .red_card_wrapper > p {
     text-align: left;
     font: normal normal 300 1.042vw/1.927vw "Nexa Regular";
-    letter-spacing: 0px;
-    color: #f2f2f2;
-    opacity: 1;
     margin-top: 0.8vw;
   }
   .red_card_wrapper > button {
-    border: 2px solid #ffffff;
-    opacity: 1;
-    background: transparent;
-    text-align: center;
     font: normal normal normal 1.354vw/1.354vw "Nexa Regular";
-    letter-spacing: 0px;
-    color: #ffffff;
-    opacity: 1;
     margin-top: 4.271vw;
+    width: fit-content;
   }
 
   .red_card_wrapper button img {
@@ -260,15 +448,9 @@
 
   /* blue card */
   .blue_card_wrapper {
-    background: linear-gradient(180deg, #975aff 0%, #155bc8 100%);
     margin-top: 5.542vw;
     width: 41.823vw;
     height: 50.135vw;
-  }
-
-  .arrow_wrapper {
-    position: relative;
-    z-index: 50;
   }
 
   .arrow_wrapper img {
@@ -277,55 +459,36 @@
   }
 
   .changing_slide_number {
-    text-align: left;
     font: normal normal normal 3.125vw/3.854vw Impact;
-    letter-spacing: 0px;
-    color: #e44024;
-    opacity: 1;
   }
 
   .total_slide_number {
-    text-align: left;
     font: normal normal normal 2.188vw/2.5vw Impact;
-    letter-spacing: 0px;
-    color: #ffffff;
-    opacity: 1;
   }
 
   .btn_download {
-    border: 2px solid #ffffff;
-    background: transparent;
     /* text */
-    text-align: center;
     font: normal normal normal 1.354vw/1.51vw "Nexa Regular";
-    letter-spacing: 0px;
-    color: #ffffff;
-    opacity: 1;
   }
   .btn_download img {
     width: 0.885vw;
     height: 0.99vw;
   }
 
-  .download_iconsNnmber img {
-    width: 0.729vw;
-    height: 0.833vw;
-  }
-
   .download_iconsNnmber p {
-    text-align: left;
     font: normal normal normal 1.146vw/2.813vw "Nexa Regular";
-
-    letter-spacing: 0px;
-    color: #ffffff;
-    opacity: 1;
   }
 
   .TextnSliderimg {
     position: absolute;
     top: 35%;
-    left: 45%;
+    left: 58%;
     transform: translate(-50%, -50%);
+  }
+
+  .slide_content_wrapper{
+    top: 40%;
+    left: -14%;
   }
 
   .slider_text {
@@ -335,6 +498,8 @@
     color: #ffffff;
     opacity: 1;
     white-space: nowrap;
+    top: 0;
+    left: 0;
   }
 
   .slider_imgs {
@@ -361,17 +526,14 @@
   /* ----- --------- */
 
   .proven_wrapper {
-    display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: space-between;
     gap: 5.313vw;
-    align-items: end;
     margin: 7.969vw 0 0 0;
   }
 
   .proven_image {
-    width: 40.385vw !important;
-    height: 43.458vw !important ;
+    width: 40.385vw;
+    height: 43.458vw;
   }
 
   .proven_btn_wrapper {
@@ -384,6 +546,14 @@
     height: 0.938vw;
   }
 
+  .proven_content_wrapper h3 {
+    font: normal normal normal 5.417vw/8.698vw Impact;
+    position: absolute;
+    top: 8.5vw;
+    left: 54.4vw;
+    transform: translate(-50%, -50%);
+  }
+
   .proven_btn_wrapper p {
     font: normal normal bold 1.354vw/1.927vw "Nexa Reguar";
     letter-spacing: 0px;
@@ -392,29 +562,12 @@
     margin-bottom: 0;
   }
 
-  .proven_content_wrapper h3 {
-    font: normal normal normal 5.417vw/8.698vw Impact;
-    letter-spacing: 0px;
-    color: #3480c2;
-    text-transform: uppercase;
-    opacity: 1;
-    white-space: nowrap;
-    position: absolute;
-    top: 8.5vw;
-    left: 54.4vw;
-    transform: translate(-50%, -50%);
-  }
-
   .btn_proven {
     margin-top: 4.896vw;
-    padding: 0.6rem 1.2rem;
-    border: 2px solid #3480c2;
-    background: transparent;
-    color: #3480c2;
     font: normal normal normal 1.354vw/1.51vw "Nexa Regular";
     letter-spacing: 0px;
   }
-  .btn_proven img{
+  .btn_proven img {
     width: 2.917vw;
     height: 0.938vw;
   }
