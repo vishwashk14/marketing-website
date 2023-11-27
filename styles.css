@@ -394,6 +394,7 @@
   top: 6%;
   transform: translate(-50%, -50%);
   z-index: 100;
+  padding: 0 0.5rem !important;
 }
 
 .btn {
@@ -402,6 +403,11 @@
 
 @media (min-width: 1024px) {
   /* nabar styling is here */
+ 
+ .nav_bar{
+  padding: 0 !important;
+ }
+
   .logo {
     width: 182px;
     height: 39px;
@@ -667,8 +673,8 @@
   .proven_content_wrapper h3 {
     font: normal normal normal 5.417vw/8.698vw Impact;
     position: absolute;
-    top: 8.5vw;
-    left: 54.4vw;
+    top: -10.5vw;
+    /* left: 54.4vw; */
     transform: translate(-50%, -50%);
   }
 
