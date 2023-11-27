@@ -43,6 +43,144 @@
   font-size: normal;
 }
 
+
+
+/* hero section start here */
+
+/* ------ hero section -------  */
+.heroStyles {
+  padding: 5.5rem 0 3rem;
+}
+
+.heroStyles_text {
+  width: 85%;
+  margin: auto;
+}
+
+.heroStyles_text .greenText p {
+  font: normal normal normal 12px/1 "Nexa Regular";
+  letter-spacing: 0px;
+  color: #6bba44;
+  opacity: 1;
+}
+
+.greenText img {
+  width: 4.708rem;
+  height: 4.135rem;
+  position: relative;
+  z-index: 10;
+}
+
+
+.heroStyles_text .unlockText {
+  text-align: left;
+  font: normal normal bold 24px/1 "Nexa Regular";
+  letter-spacing: 0px;
+  color: #e4e4e4;
+  margin-bottom: 0 !important;
+}
+
+.mobile {
+  width: auto;
+  height: 3.25rem;
+  position: relative;
+  z-index: 10;
+}
+
+.heroStyles_text h1 {
+  font: normal normal normal 82px/1 Impact;
+  letter-spacing: 0px;
+  color: #e44024;
+  text-shadow: 10px 10px 0px #8f1b0757;
+  text-transform: uppercase;
+  opacity: 1;
+  text-align: center;
+  margin: 0;
+  z-index: 10;
+  position: relative;
+}
+
+.heroStyles_text .subP {
+  text-align: center;
+  margin: auto;
+  font: normal normal 300 14px/1.2 "Nexa Regular";
+  letter-spacing: 0px;
+  color: #e4e4e4;
+  opacity: 1;
+  margin-top: 4.6vw;
+}
+
+.rocket_img {
+  position: absolute;
+  z-index: 1;
+  display: none;
+}
+
+
+.btn_div .btn1 {
+  text-align: center;
+  font: normal normal normal 12px/1 "Nexa Regular";
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  background: transparent;
+  border: 2px solid #3480c2;
+}
+
+.btn1 img {
+  width: 1.463rem;
+  height: 0.838rem;
+}
+
+.btn_div .btn2 {
+  text-align: center;
+  font: normal normal 600 12px/1.2 "Nexa Regular";
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  background: #3480c2 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border: 1px solid #3480c2;
+  margin: 0 0.4rem 0;
+  padding: 1.09rem 3rem;
+}
+
+.social_div {
+  position: absolute;
+  left: 3.542vw;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.social_div > p {
+  writing-mode: vertical-lr;
+  letter-spacing: 6px;
+  word-spacing: 2px;
+  rotate: 180deg;
+  color: #404141;
+  font: normal normal 300 12px/1 "Nexa Regular";
+  text-transform: uppercase;
+  margin-left: 4.5px;
+}
+
+.social_div div a {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 0.3rem auto;
+}
+
+.social_div div a img {
+  cursor: pointer;
+  width: 12px !important;
+  height: 12px !important;
+}
+
+/* hero  section End here */
+
 /* PROVEN EXCELLENCE Mobile */
 .proven_wrapper {
   display: grid;
@@ -202,14 +340,14 @@
   position: absolute;
   top: 30%;
   left: 50%;
-  transform: translate(-40%,-50%);
+  transform: translate(-40%, -50%);
 }
 
-.slide_content_wrapper{
+.slide_content_wrapper {
   position: absolute;
   top: 40%;
   left: -24%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
   gap: 0.2rem;
@@ -243,26 +381,39 @@
   height: auto;
 }
 
+.logo {
+  width: auto;
+  height: 28px;
+}
+
+.nav_bar {
+  width: 100% !important;
+  position: absolute !important;
+  padding: 1.938rem 0 !important;
+  left: 50%;
+  top: 6%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+.btn {
+  margin-left: 1rem !important;
+}
+
 @media (min-width: 1024px) {
   /* nabar styling is here */
-  .nav_bar {
-    width: 100% !important;
-    position: absolute !important;
-    padding: 1.938rem 0 !important;
-    left: 50%;
-    top: 6%;
-    transform: translate(-50%, -50%);
-    z-index: 100;
-  }
-
   .logo {
     width: 182px;
     height: 39px;
   }
 
+  .btn {
+    margin-left: 2.2rem !important;
+  }
+
   /* hero styling is here */
   .heroStyles {
-    padding: 7rem 0 2rem;
+    padding: 6.5rem 0 4rem;
   }
 
   .heroStyles_text {
@@ -278,11 +429,8 @@
   }
 
   .greenText img {
-    /* opacity: 0.18; */
     width: 7.708vw;
     height: 7.135vw;
-    position: relative;
-    z-index: 10;
   }
 
   .heroStyles_text .unlockText {
@@ -296,50 +444,27 @@
   .mobile {
     width: 14.115vw;
     height: 6.25vw;
-    position: relative;
-    z-index: 10;
   }
 
   .heroStyles_text h1 {
     font: normal normal normal 18.49vw/1 Impact;
-    letter-spacing: 0px;
-    color: #e44024;
-    text-shadow: 10px 10px 0px #8f1b0757;
-    text-transform: uppercase;
-    opacity: 1;
-    text-align: center;
-    margin: 0;
-    z-index: 10;
-    position: relative;
   }
 
   .heroStyles_text .subP {
-    text-align: center;
-    margin: auto;
     font: normal normal 300 0.938vw/1.563vw "Nexa Regular";
-    letter-spacing: 0px;
-    color: #e4e4e4;
-    opacity: 1;
     margin-top: 1.6vw;
   }
 
   .rocket_img {
     width: 29.583vw;
     height: 16.875vw;
-    position: absolute;
     right: -1.5%;
     top: -12px;
-    z-index: 1;
+    display: block;
   }
 
   .btn_div .btn1 {
-    text-align: center;
     font: normal normal normal 1.354vw/1.51vw "Nexa Regular";
-    letter-spacing: 0px;
-    color: #ffffff;
-    opacity: 1;
-    background: transparent;
-    border: 2px solid #3480c2;
   }
 
   .btn1 img {
@@ -348,14 +473,7 @@
   }
 
   .btn_div .btn2 {
-    text-align: center;
     font: normal normal 600 1.354vw/1.51vw "Nexa Regular";
-    letter-spacing: 0px;
-    color: #ffffff;
-    opacity: 1;
-    background: #3480c2 0% 0% no-repeat padding-box;
-    opacity: 1;
-    border: 1px solid #3480c2;
     margin: 0 0.4rem 0;
     padding: 1.09rem 3rem;
   }
@@ -486,7 +604,7 @@
     transform: translate(-50%, -50%);
   }
 
-  .slide_content_wrapper{
+  .slide_content_wrapper {
     top: 40%;
     left: -14%;
   }
